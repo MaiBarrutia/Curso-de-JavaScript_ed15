@@ -1,0 +1,9 @@
+.registered {
+  background-color: green;
+  font-weight: bold;
+}
+
+.not-registered {
+  background-color: red;
+  font-weight: bold;
+}

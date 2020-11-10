@@ -1,0 +1,58 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+h1 {
+  text-transform: uppercase;
+}
+h2 {
+  color: rebeccapurple;
+}
+#items {
+  display: inline-flex;
+  align-items: center;
+}
+#items > * {
+  display: inline-flex;
+  align-items: center;
+  margin: 10px;
+}
+#addButton {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: rebeccapurple;
+  color: white;
+  border: none;
+}
+.delete {
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: steelblue;
+  color: white;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+input {
+  padding: 5px;
+}
+input#getItem {
+  height: 30px;
+  width: 200px;
+}
+input#getQuantity {
+  height: 30px;
+  width: 80px;
+}
+#addShoppingList li {
+  padding: 10px;
+}
+#addShoppingList li span {
+  font-weight: bold;
+}
+
+#addShoppingList button {
+  margin-left: 20px;
+}
